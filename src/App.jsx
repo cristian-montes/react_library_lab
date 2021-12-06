@@ -10,7 +10,6 @@ function App() {
   return (
     <main className="container">
       <Router>
-        {/* <h1>Library Catalog</h1> */}
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
